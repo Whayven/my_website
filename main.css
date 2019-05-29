@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  background-image: url(/images/full-space.jpg);
+  background-image: url(/images/stardust.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -78,8 +78,6 @@ div.card {
 
 div#me {
   display: block;
-  background: white;
-  border: none;
   width: auto;
   height: 450px;
   margin-left: 40%;
