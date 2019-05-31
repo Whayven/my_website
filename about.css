@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    max-height: 100%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0c0c0c;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url(./images/stardust.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.heading h1 {
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  margin: 15px 10px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  margin: auto auto auto 33px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  background-image: linear-gradient(#c6c6c6, #f2f2f2);
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: auto;
+  margin: 30px auto auto auto;
+  padding-right: 40px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card ul.education-list {
+  list-style: none;
+}
+
+.card p {
+  padding: 5px 0 5px 35px;
+}
